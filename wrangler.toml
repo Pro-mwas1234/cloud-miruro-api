@@ -1,0 +1,11 @@
+name = "kurovexa"
+main = "dist/index.js"
+compatibility_date = "2025-05-05"
+compatibility_flags = ["nodejs_compat"]
+[vars]
+# Comma-separated list of allowed CORS origins, or "*" for all
+ALLOWED_ORIGINS = "*"
+# Edge cache TTL in seconds for /episodes responses (default: 3600)
+EPISODES_CACHE_TTL = "3600"
+# Edge cache TTL in seconds for /watch responses (default: 300)
+WATCH_CACHE_TTL = "300"
