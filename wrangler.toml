@@ -1,4 +1,4 @@
-name = "kurovexa"
+name = "anicove"
 main = "dist/index.js"
 compatibility_date = "2025-05-05"
 compatibility_flags = ["nodejs_compat"]
